@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-size: 12px;
+}
+.form-container label,
+.form-container button{
+    font-size: 14px;
+}
+.form-container.input-field {
+    @apply pr-8;
+}
+.tooltip {
+    position: relative;
+    display: inline-block
+}
+
